@@ -1,0 +1,61 @@
+Que haces che.
+
+Te comento, el rol de SysAdmin aunque sigue existiendo, es un rol que esta siendo reemplazado (o upgradeado) por el mal llamado DevOps, o SRE.
+
+Asique quizas te convenga apuntar los cursos que hagas para ese lado:
+
+https://roadmap.sh/devops
+
+Basicamente aprendete algun lenguaje orientado a scripting (Python, o Go); aprende las bases de Linux y algo de Bash, levantate algunas maquinas virtuales o mejor aprende las bases de conteinerizacion (Docker, Kubernetes), y alguna herramienta de Monitoreo (Grafana). Algo de CI/CD (Jenkins o Github Actions) y GitOps eventualmente vas a tener que saber tambien, si queres estar mas cerca de la cresta de la ola.
+
+
+
+No necesitas apuntar a ser capo en eso, sino hacerte algun curso de fundamentals, entender lo minimo, al menos los conceptos.
+
+
+
+Despues ponete a hacerte algun proyecto casero.
+
+Con python te armas una webapp basica que no haga casi nada (ponele, clickeas un boton y escribe en una DB mysql que debe estar en otro componente), la conteinerizas con docker y la levantas con docker-compose o con kubernetes en un ambiente local de testing tanto la webapp como una db no persistente; desde tu web browser levantas ese sitio local, tocas el boton para ver que escribe, podes levantar otro contenedor con grafana y ver las metricas de la DB, y listo.
+
+
+
+Con eso, que es UN MONTON, vas a estar años luz adelante no solo como sysadmin sino apuntando para el siguiente paso.
+
+
+
+AHORA SI QUERES APUNTAR A SYSADMIN CLASICO, con solo aprender algun lenguaje de scripting, algo de linux y bash, ya estas para empezar.
+
+
+
+Edit: En orden de prioridades
+
+1- Aprender bases de python y bash
+
+2- Aprende de VMs, Levantarte alguna VM de Linux y laburar un poco con ese SO intentando hacer la mayor cantidad de cosas por terminal y no usar la UI
+
+3- Aprende algo de redes basico
+
+4- Aprende algo de webservers basico (nginx, tomcat...)
+
+5- Bases de DBs
+
+Hasta aca podes ya ser un SysAdmin Jr
+
+Despues:
+
+- Conteinerizacion
+
+- Git
+
+- CICD
+
+- Kubernetes
+
+- Herramientas de Monitoreo
+
+Y mas.
+
+
+
+Recorda que no necesitas ser un capo en nada de esto, solo tener las bases, lo otro se aprende en la cancha!.
